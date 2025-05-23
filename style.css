@@ -48,9 +48,7 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    /* align-items: center; */
     flex-wrap: wrap;
-    /* align-content: space-evenly; */
 }
 
 .container .item {
