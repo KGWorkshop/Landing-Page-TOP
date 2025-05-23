@@ -20,7 +20,7 @@ ul {
     align-items: center;
     background-color: #1F2937;
     height: 60px;
-    padding: 0 100px;
+    padding: 0 20px;
 }
 
 .logo {
@@ -38,7 +38,7 @@ ul {
 .header ul li a {
     text-decoration: none;
     color: #E5E7EB;
-    /* font-size: 18px; */
+    font-size: 18px;
 }
 
 /* Section 1 styles */
@@ -53,6 +53,7 @@ ul {
 
 .container .item {
     flex-basis: 100%;
+    padding: 20px
 }
 
 .container .item p {
@@ -71,13 +72,20 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    
-    width: 420px;
+    width: auto;
     height: 200px;
 }
 
 .container h1 {
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
+}
+
+.container button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #1F2937;
+    padding: 5px 25px;
     color: #F9FAF8;
 }
