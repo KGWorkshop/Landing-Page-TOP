@@ -72,7 +72,7 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    width: auto;
+    width: 400px;
     height: 200px;
 }
 
@@ -88,4 +88,41 @@ ul {
     border-color: #1F2937;
     padding: 5px 25px;
     color: #F9FAF8;
+}
+
+/* Section 2 styles */
+
+.container2 {
+    height: 300px;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+}
+
+.box {
+    max-width: 200px;
+}
+
+.box div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 80px;
+    border: #3882F6 4px solid;
+    border-radius: 10%;
+}
+
+.container2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
