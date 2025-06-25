@@ -48,11 +48,11 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .item {
-    flex-basis: 100%;
     padding: 20px
 }
 
@@ -64,7 +64,11 @@ ul {
 .container .item:nth-of-type(1),
 .container .item:nth-of-type(2) {
     flex-basis: 50%;
-    align-self: center;
+}
+
+.container .item:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container .item:nth-of-type(2) div {
@@ -73,7 +77,8 @@ ul {
     justify-content: center;
     background-color: #E5E7EB;
     width: 400px;
-    height: 200px;
+    height: 210px;
+    
 }
 
 .container h1 {
@@ -98,30 +103,29 @@ ul {
     color: #1F2937;
     gap: 30px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: space-around;
+    align-items: center;
     justify-content: center;
-    align-content: space-between;
-    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
 }
 
 .box {
-    max-width: 200px;
+    width: 150px;
+    text-align: center;
 }
 
 .box div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    width: 80px;
-    border: #3882F6 4px solid;
+    height: 150px;
+    width: 150px;
+    border: #3882F6 3px solid;
     border-radius: 10%;
 }
 
-.container2 h2 {
+.container2 h3 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
