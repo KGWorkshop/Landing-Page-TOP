@@ -78,7 +78,7 @@ ul {
     background-color: #E5E7EB;
     width: 400px;
     height: 210px;
-    
+
 }
 
 .container h1 {
@@ -134,15 +134,32 @@ ul {
 /* Section 3 styles */
 
 .container3 {
-    height: 250px;
+    height: auto;
+    min-height: 300px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
+    padding: 40px 0;
 }
 
-/* I want this paragraph to be 720px in width */
-.container3 p {
+.container3 .quote {
     font-size: 36px;
+    font-style: italic;
     color: #1F2937;
+    max-width: 720px;
+    margin-bottom: 20px;
+}
+
+.container3 .person {
+    align-self: flex-end;
+    margin-right: calc((100% - 720px) / 2);
+    font-size: 16px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.container3 .person p {
+    margin: 0;
 }
